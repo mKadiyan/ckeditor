@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/1ccc3552fbd73d715f449183c045dd43
+ * (2) https://ckeditor.com/cke4/builder/4445481957199a1d02e20cbdb3cd0ce2
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/1ccc3552fbd73d715f449183c045dd43
+ * (3) https://ckeditor.com/cke4/builder/download/4445481957199a1d02e20cbdb3cd0ce2
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -52,14 +52,11 @@ var CKBUILDER_CONFIG = {
 		'tests'
 	],
 	plugins : {
-		'MathEx' : 1,
 		'a11yhelp' : 1,
-		'about' : 1,
 		'basicstyles' : 1,
 		'bidi' : 1,
 		'blockquote' : 1,
 		'chart' : 1,
-		'ckeditor_fa' : 1,
 		'clipboard' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
@@ -70,6 +67,7 @@ var CKBUILDER_CONFIG = {
 		'elementspath' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
+		'eqneditor' : 1,
 		'filebrowser' : 1,
 		'find' : 1,
 		'flash' : 1,
@@ -77,23 +75,26 @@ var CKBUILDER_CONFIG = {
 		'font' : 1,
 		'format' : 1,
 		'forms' : 1,
-		'glyphicons' : 1,
 		'horizontalrule' : 1,
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
+		'imagepaste' : 1,
+		'imageresize' : 1,
 		'indentblock' : 1,
 		'indentlist' : 1,
+		'insertpre' : 1,
 		'justify' : 1,
 		'language' : 1,
 		'link' : 1,
 		'list' : 1,
 		'liststyle' : 1,
 		'magicline' : 1,
+		'mathjax' : 1,
 		'maximize' : 1,
 		'newpage' : 1,
 		'pagebreak' : 1,
-		'pastecode' : 1,
+		'pastefromexcel' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
 		'preview' : 1,
@@ -105,10 +106,12 @@ var CKBUILDER_CONFIG = {
 		'selectall' : 1,
 		'showblocks' : 1,
 		'showborders' : 1,
+		'simage' : 1,
 		'smiley' : 1,
 		'sourcearea' : 1,
 		'specialchar' : 1,
 		'stylescombo' : 1,
+		'symbol' : 1,
 		'tab' : 1,
 		'table' : 1,
 		'tableselection' : 1,
@@ -117,6 +120,7 @@ var CKBUILDER_CONFIG = {
 		'texzilla' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
+		'uploadfile' : 1,
 		'uploadimage' : 1,
 		'wordcount' : 1,
 		'wsc' : 1,

@@ -7,5 +7,28 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-    config.mathJaxLib= 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    config.specialChars = config.specialChars.concat([ [ '&alpha;', 'alpha' ],
+        [ '&beta;', 'beta' ],
+        [ '&gamma;', 'gamma' ],
+        [ '&delta;', 'delta' ],
+        [ '&epsilon;', 'epsilon' ],
+        [ '&zeta;', 'zeta' ],
+        [ '&eta;', 'eta' ],
+        [ '&theta;', 'theta' ],
+        [ '&iota;', 'iota' ],
+        [ '&kappa;', 'kappa' ],
+        [ '&lambda;', 'lambda' ],
+        [ '&mu;', 'mu' ],
+        [ '&nu;', 'nu' ],
+        [ '&xi;', 'xi' ],
+        [ '&omicron;', 'omicron' ],
+        [ '&pi;', 'pi' ],
+        [ '&rho;', 'rho' ],
+        [ '&sigma;', 'sigma' ],
+        [ '&tau;', 'tau' ],
+        [ '&upsilon;', 'upsilon' ],
+        [ '&phi;', 'phi' ],
+        [ '&chi;', 'chi' ],
+        [ '&psi;', 'psi' ],
+        [ '&omega;', 'omega' ] ]);
 };

@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/5852ff8c6921a2e13d002c0ea2d7f85b
+ * (2) https://ckeditor.com/cke4/builder/69f3676ac28a5bde780632a59ee4c234
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/5852ff8c6921a2e13d002c0ea2d7f85b
+ * (3) https://ckeditor.com/cke4/builder/download/69f3676ac28a5bde780632a59ee4c234
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -52,18 +52,12 @@ var CKBUILDER_CONFIG = {
 		'tests'
 	],
 	plugins : {
-		'a11ychecker' : 1,
 		'a11yhelp' : 1,
 		'about' : 1,
-		'autoembed' : 1,
-		'autolink' : 1,
-		'balloonpanel' : 1,
 		'base64image' : 1,
 		'basicstyles' : 1,
 		'bidi' : 1,
 		'blockquote' : 1,
-		'ckeditor_wiris' : 1,
-		'ckwebspeech' : 1,
 		'clipboard' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
@@ -72,11 +66,8 @@ var CKBUILDER_CONFIG = {
 		'dialogadvtab' : 1,
 		'div' : 1,
 		'elementspath' : 1,
-		'embed' : 1,
-		'embedbase' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
-		'eqneditor' : 1,
 		'filebrowser' : 1,
 		'find' : 1,
 		'flash' : 1,
@@ -89,8 +80,6 @@ var CKBUILDER_CONFIG = {
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
-		'image2' : 1,
-		'imagebase' : 1,
 		'indentblock' : 1,
 		'indentlist' : 1,
 		'justify' : 1,
@@ -99,27 +88,21 @@ var CKBUILDER_CONFIG = {
 		'list' : 1,
 		'liststyle' : 1,
 		'magicline' : 1,
-		'markdown' : 1,
 		'mathjax' : 1,
 		'maximize' : 1,
 		'newpage' : 1,
-		'niftytimers' : 1,
 		'pagebreak' : 1,
 		'pasteFromGoogleDoc' : 1,
 		'pasteUploadImage' : 1,
-		'pastebase64' : 1,
-		'pastefromexcel' : 1,
 		'pastefromgdocs' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
 		'pastetools' : 1,
-		'pbckcode' : 1,
 		'preview' : 1,
 		'print' : 1,
 		'removeformat' : 1,
 		'resize' : 1,
 		'save' : 1,
-		'save-to-pdf' : 1,
 		'scayt' : 1,
 		'selectall' : 1,
 		'showblocks' : 1,
@@ -133,13 +116,10 @@ var CKBUILDER_CONFIG = {
 		'tableselection' : 1,
 		'tabletools' : 1,
 		'templates' : 1,
-		'texzilla' : 1,
+		'textindent' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
-		'uploadfile' : 1,
 		'uploadimage' : 1,
-		'videoembed' : 1,
-		'wordcount' : 1,
 		'wsc' : 1,
 		'wysiwygarea' : 1
 	},

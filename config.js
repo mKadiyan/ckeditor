@@ -31,4 +31,6 @@ CKEDITOR.editorConfig = function( config ) {
         [ '&chi;', 'chi' ],
         [ '&psi;', 'psi' ],
         [ '&omega;', 'omega' ] ]);
+    config.extraPlugins += (config.extraPlugins.length == 0 ? '' : ',') + 'ckeditor_wiris';
+    config.allowedContent = true;
 };

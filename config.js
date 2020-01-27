@@ -33,4 +33,5 @@ CKEDITOR.editorConfig = function( config ) {
         [ '&omega;', 'omega' ] ]);
     config.extraPlugins += (config.extraPlugins.length == 0 ? '' : ',') + 'ckeditor_wiris';
     config.allowedContent = true;
+    config.wiriseditorparameters = {detectHand: false, fontStyle: "normal"};
 };
